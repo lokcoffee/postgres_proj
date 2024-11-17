@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "postgres-proj"
+version = "0.1.0"
+description = ""
+authors = ["lokcoffee <fernandoshui@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+psycopg2 = "^2.9.10"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+default = true
+url = "http://mirrors.aliyun.com/pypi/simple/"

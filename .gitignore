@@ -1,0 +1,7 @@
+.idea/
+build/
+dist/
+.git/
+
+
+pdf2images.spec
